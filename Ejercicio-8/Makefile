@@ -1,6 +1,6 @@
 CC = gcc
-CCFLAGS = -Wall -Werror -Wextra -pedantic -std=c99 
-LDFLAGS =  -fopenmp -lm -O0
+CCFLAGS = -Wall -Werror -Wextra -pedantic 
+LDFLAGS =  -fopenmp -lm -O0 -std=c99 
 
 SRC = ejercicio8.c
 OBJ = $(SRC:.cc=.o)

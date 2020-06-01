@@ -1,6 +1,6 @@
 CC = gcc
-CCFLAGS = -Wall -Werror -Wextra -pedantic -std=c99 
-LDFLAGS =  -fopenmp -fsanitize=address
+CCFLAGS = -Wall -Werror -Wextra -pedantic 
+LDFLAGS =  -fopenmp -std=c99 
 
 SRC = ejercicio5.c
 OBJ = $(SRC:.cc=.o)
