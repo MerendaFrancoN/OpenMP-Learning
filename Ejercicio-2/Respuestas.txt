@@ -1,0 +1,9 @@
+1. La diferencia entre ambos programas es que en uno el for lo hacen todos los threads, y en el otro programa el for es distribuido entre los threads. El resultado sería, en el primer programa xThreads * n carteles con "Hola mundo" vs al segundo programa donde
+solamente se verían n carteles con "Hola mundo".
+
+2. Si n no fuera privada, en el primer programa se termina la predictibilidad, ya que todos los threads van a acceder y modificar la variable, por lo tanto algun thread
+hará más iteraciones que otros.
+
+En el segundo caso, va seguir funcionando de la misma manera, ya que el trabajo del for es distribuido en los distintos threads.
+
+

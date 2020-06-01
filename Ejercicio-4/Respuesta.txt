@@ -1,0 +1,5 @@
+Ejercicio 4: 
+
+*En el caso 1, al estar el break, debería detener el for, y no sería viable paralelizar en ese caso.
+
+*En el caso 2, es análogo, solo que ahora quien controla la condición es una variable booleana, pero la idea esencial es la misma.

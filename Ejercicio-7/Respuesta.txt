@@ -1,0 +1,15 @@
+http://ppc.cs.aalto.fi/
+La diferencia se encuentra en la clausula schedule
+
+Si es STATIC - distribuye el loop en forma circular entre lso threads, es decir,
+si fuera un loop de 10 con 3 threads.
+
+t1   t2   t3
+1    2    3 
+4    5    6
+7    8    9
+10
+
+En el caso de DYNAMIC - En este caso, cada thread toma una iteración, la procesa, y luego se fija
+cual es la próxima iteración que no está siendo procesada por ningún otro.
+

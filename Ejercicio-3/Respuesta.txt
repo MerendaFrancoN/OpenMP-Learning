@@ -1,0 +1,15 @@
+Caso 1: 
+    En el primer caso es paralelizable debido a que
+    con acceder a la variable en ese indice y la copia
+    se podría paralelizar.
+
+Caso 2:
+    También se podría paralelizar utilizando diferentes indices
+    en los distintos threads.
+
+Caso 3:
+    No se puede debido a que ix se va modificando
+    en cada iteración del loop.
+
+Caso 4:
+    La misma situación que el caso 2.
